@@ -6,12 +6,12 @@ http://hs3x.com/
 https://ireceivesmsonline.com/
 
 #Install
-<pre>
+```terminal
 pip install smsReceiver
-</pre>
+```
 
 #Usage
-<pre>
+```python
 from smsReceiver.numberGen import hs3x
 from smsReceiver.numberGen import ireceivesmsonline
 
@@ -28,4 +28,4 @@ number,countryCode = m.getNumber()
 print countryCode,number
 #your code goes Here
 print m.checkSMS('Message Pattern')
-</pre>
+```
