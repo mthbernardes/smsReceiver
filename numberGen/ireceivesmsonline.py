@@ -1,3 +1,4 @@
+import os
 import json
 import time
 import random
@@ -7,7 +8,8 @@ from lxml import html
 class util:
     def getCC(self,country):
         country = 'usa' if country == 'united states' else country
-        with open('numberGen/countryCode.json') as jsonFile:
+        filepath = os.path.join(os.path.dirname(__file__),'countryCode.json')
+        with open(filepath) as jsonFile:
             data = json.load(jsonFile)
         return data[country]
 

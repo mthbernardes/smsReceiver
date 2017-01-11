@@ -1,0 +1,2 @@
+recursive-include smsReceiver/numberGen *.py
+recursive-include smsReceiver/numberGen *.json

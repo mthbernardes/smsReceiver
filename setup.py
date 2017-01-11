@@ -3,7 +3,7 @@ from setuptools import setup,find_packages
 
 setup(
     name='smsReceiver',
-    version='1.6',
+    version='2.0',
     url='https://github.com/mthbernardes/smsReceiver',
     license='MIT License',
     author='Matheus Bernardes',
