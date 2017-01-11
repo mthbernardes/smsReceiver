@@ -1,5 +1,5 @@
-from numberGen import hs3x
-from numberGen import ireceivesmsonline
+from smsReceiver.numberGen import hs3x
+from smsReceiver.numberGen import ireceivesmsonline
 
 #using http://hs3x.com/
 m = hs3x.generator()
